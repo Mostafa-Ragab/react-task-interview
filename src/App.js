@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router,Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router,Redirect, Route, Switch } from 'react-router-dom';
 import StagesTabs from './components/Stages-tabs.jsx';
 import Header from './components/Header';
 
