@@ -10,9 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 ReactDOM.render(
   <Provider store={store}>
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
   </Provider>,
   document.getElementById('root')
 );
